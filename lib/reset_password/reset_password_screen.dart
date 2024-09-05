@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:alumni_app_2/login_page/login_screen.dart';
+import 'package:alumni_app_2/ login_page/login_screen.dart';
 
 class ResetPasswordScreen extends StatefulWidget {
   const ResetPasswordScreen({super.key});
