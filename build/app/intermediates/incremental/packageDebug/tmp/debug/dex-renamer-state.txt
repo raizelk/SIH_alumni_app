@@ -1,8 +1,8 @@
-#Sun Sep 01 18:36:39 IST 2024
-base.0=C\:\\Users\\skhan\\Desktop\\college\\alumni final\\sih app\\alumni_app_2\\sihapp\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\skhan\\Desktop\\college\\alumni final\\sih app\\alumni_app_2\\sihapp\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\skhan\\Desktop\\college\\alumni final\\sih app\\alumni_app_2\\sihapp\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.3=C\:\\Users\\skhan\\Desktop\\college\\alumni final\\sih app\\alumni_app_2\\sihapp\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+#Wed Sep 04 03:54:32 IST 2024
+base.0=C\:\\Users\\skhan\\Desktop\\college\\alumni final\\sih app\\alumni_app_2\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\skhan\\Desktop\\college\\alumni final\\sih app\\alumni_app_2\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\skhan\\Desktop\\college\\alumni final\\sih app\\alumni_app_2\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.3=C\:\\Users\\skhan\\Desktop\\college\\alumni final\\sih app\\alumni_app_2\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=1/classes.dex

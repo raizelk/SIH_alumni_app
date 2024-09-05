@@ -62,6 +62,24 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///C:/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "go_router",
+      "rootUri": "file:///C:/Users/skhan/AppData/Local/Pub/Cache/hosted/pub.dev/go_router-14.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "google_nav_bar",
+      "rootUri": "file:///C:/Users/skhan/AppData/Local/Pub/Cache/hosted/pub.dev/google_nav_bar-5.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "leak_tracker",
       "rootUri": "file:///C:/Users/skhan/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.5",
       "packageUri": "lib/",
@@ -84,6 +102,12 @@
       "rootUri": "file:///C:/Users/skhan/AppData/Local/Pub/Cache/hosted/pub.dev/lints-4.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.1"
+    },
+    {
+      "name": "logging",
+      "rootUri": "file:///C:/Users/skhan/AppData/Local/Pub/Cache/hosted/pub.dev/logging-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "matcher",
@@ -114,6 +138,12 @@
       "rootUri": "file:///C:/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "sliding_clipped_nav_bar",
+      "rootUri": "file:///C:/Users/skhan/AppData/Local/Pub/Cache/hosted/pub.dev/sliding_clipped_nav_bar-3.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
     },
     {
       "name": "source_span",
@@ -170,7 +200,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-09-01T12:05:20.414060Z",
+  "generated": "2024-09-03T20:52:31.247111Z",
   "generator": "pub",
   "generatorVersion": "3.5.1",
   "flutterRoot": "file:///C:/flutter",
