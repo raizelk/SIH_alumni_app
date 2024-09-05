@@ -14,6 +14,24 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "cached_network_image",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/cached_network_image-3.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "cached_network_image_platform_interface",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/cached_network_image_platform_interface-4.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "cached_network_image_web",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/cached_network_image_web-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "characters",
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/characters-1.3.0",
       "packageUri": "lib/",
@@ -32,22 +50,110 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "cross_file",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/cross_file-0.3.4+2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/crypto-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
+<<<<<<< HEAD
+      "name": "fake_async",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
+=======
+      "name": "curved_navigation_bar",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/curved_navigation_bar-1.0.6",
+>>>>>>> login_page
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+<<<<<<< HEAD
+      "name": "flutter",
+      "rootUri": "file:///Users/riya/development/flutter/packages/flutter",
+=======
       "name": "fake_async",
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
-      "name": "flutter",
-      "rootUri": "file:///Users/riya/development/flutter/packages/flutter",
+      "name": "ffi",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/ffi-2.1.3",
+>>>>>>> login_page
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+<<<<<<< HEAD
+      "name": "flutter_lints",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/flutter_lints-4.0.0",
+=======
+      "name": "file",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/file-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "file_selector_linux",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.2+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "file_selector_macos",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.4",
+>>>>>>> login_page
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+<<<<<<< HEAD
+      "name": "flutter_test",
+      "rootUri": "file:///Users/riya/development/flutter/packages/flutter_test",
+=======
+      "name": "file_selector_platform_interface",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/file_selector_platform_interface-2.6.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "file_selector_windows",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "fixnum",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/fixnum-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/riya/development/flutter/packages/flutter",
+>>>>>>> login_page
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+<<<<<<< HEAD
+=======
+      "name": "flutter_cache_manager",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/flutter_cache_manager-3.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter_lints",
@@ -56,18 +162,26 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.22",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/riya/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
+>>>>>>> login_page
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/riya/development/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
+<<<<<<< HEAD
       "name": "go_router",
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/go_router-14.2.7",
       "packageUri": "lib/",
@@ -76,10 +190,95 @@
     {
       "name": "google_nav_bar",
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/google_nav_bar-5.0.6",
+=======
+      "name": "fluttertoast",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/fluttertoast-8.2.8",
+>>>>>>> login_page
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "http",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/http-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "image_cropper",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_cropper-8.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "image_cropper_for_web",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_cropper_for_web-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "image_cropper_platform_interface",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_cropper_platform_interface-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "image_picker",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_picker-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "image_picker_android",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+13",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "image_picker_for_web",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_picker_for_web-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "image_picker_ios",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "image_picker_linux",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "image_picker_macos",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "image_picker_platform_interface",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_picker_platform_interface-2.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "image_picker_windows",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+>>>>>>> login_page
       "name": "leak_tracker",
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/leak_tracker-10.0.5",
       "packageUri": "lib/",
@@ -128,10 +327,81 @@
       "languageVersion": "2.12"
     },
     {
+<<<<<<< HEAD
+      "name": "path",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/path-1.9.0",
+=======
+      "name": "mime",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/mime-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "octo_image",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/octo_image-2.1.0",
+>>>>>>> login_page
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "path_provider",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/path_provider-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "path_provider_android",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/path_provider_android-2.2.10",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "path_provider_foundation",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "path_provider_linux",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "path_provider_platform_interface",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/path_provider_platform_interface-2.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "path_provider_windows",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/platform-3.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "rxdart",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/rxdart-0.28.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "sky_engine",
@@ -152,6 +422,24 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "sprintf",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sqflite",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/sqflite-2.3.3+1",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "sqflite_common",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/sqflite_common-2.5.4+2",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
       "name": "stack_trace",
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
@@ -170,6 +458,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "synchronized",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/synchronized-3.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -180,6 +474,66 @@
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/test_api-0.7.2",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "url_launcher",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/url_launcher-6.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "url_launcher_android",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.10",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "url_launcher_ios",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "url_launcher_linux",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/url_launcher_linux-3.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "url_launcher_macos",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "url_launcher_platform_interface",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/url_launcher_platform_interface-2.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "url_launcher_web",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/url_launcher_web-2.3.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "url_launcher_windows",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "uuid",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/uuid-4.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "vector_math",
@@ -194,13 +548,29 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "sihapp",
+      "name": "web",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/web-0.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "xdg_directories",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/xdg_directories-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "alumni_app_2",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     }
   ],
+<<<<<<< HEAD
   "generated": "2024-09-05T18:51:28.405308Z",
+=======
+  "generated": "2024-09-05T17:17:41.222144Z",
+>>>>>>> login_page
   "generator": "pub",
   "generatorVersion": "3.5.1",
   "flutterRoot": "file:///Users/riya/development/flutter",
