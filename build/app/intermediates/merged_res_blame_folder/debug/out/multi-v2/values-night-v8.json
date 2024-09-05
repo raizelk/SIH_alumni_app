@@ -4,11 +4,7 @@
             "outputFile": "com.example.sihapp-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\skhan\\Desktop\\college\\alumni final\\sih app\\alumni_app_2\\android\\app\\src\\main\\res\\values-night\\styles.xml",
-=======
                     "source": "/Users/riya/Documents/RIYA/alumni_app_2/android/app/src/main/res/values-night/styles.xml",
->>>>>>> login_page
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
