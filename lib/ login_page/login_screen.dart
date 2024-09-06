@@ -1,7 +1,8 @@
-import 'package:alumni_app_2/forget_password/forget_password_screen.dart';
-import 'package:cached_network_image/cached_network_image.dart';
+import 'package:alumni_app_2/wrapper/main_wrapper.dart';
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:alumni_app_2/signup_page/signup_screen.dart';
+import 'package:alumni_app_2/forget_password/forget_password_screen.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -61,8 +62,11 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
         setState(() {
           _isLoading = false;
         });
-        // After a successful "login," navigate to the desired screen.
-        // Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => HomeScreen()));
+        // After a successful "login," navigate to the HomeScreen
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => const MainWrapper()),
+        );
       });
     }
   }
@@ -229,11 +233,11 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                             TextButton(
                               onPressed: () {
                                 Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => const SignUp(),
-                                    ),
-                                );// Use named route
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const SignUp(),
+                                  ),
+                                ); // Use named route
                               },
                               child: const Text(
                                 'Signup',
