@@ -1,33 +1,42 @@
+import 'package:alumni_app_2/wrapper/main_wrapper.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:alumni_app_2/ login_page/login_screen.dart';
-import 'package:alumni_app_2/signup_page/signup_screen.dart';
-import 'package:alumni_app_2/forget_password/forget_password_screen.dart';
-import 'package:alumni_app_2/reset_password/reset_password_screen.dart'; // Import the ResetPassword screen
 
 void main() {
-  runApp(const MyApp());
+  runApp(_MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class _MyApp extends StatefulWidget {
+  const _MyApp({super.key});
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<_MyApp> {
+  bool _isLoggedIn = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _checkLoginStatus();
+  }
+
+  // Check if user is already logged in
+  void _checkLoginStatus() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    bool? loggedIn = prefs.getBool('isLoggedIn') ?? false;
+    setState(() {
+      _isLoggedIn = loggedIn;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Alumni Connect App',
-      theme: ThemeData(
-        scaffoldBackgroundColor: Colors.black,
-        primarySwatch: Colors.blue,
-      ),
-      // Use routes for navigation
-      routes: {
-        '/login': (context) => const Login(),
-        '/signup': (context) => const SignUp(),
-        '/forget-password': (context) => const ForgetPassword(),
-        '/reset-password': (context) => const ResetPasswordScreen(), // Add ResetPassword route
-      },
-      home: const Login(), // Set the initial screen to Login
+      title: 'Persistent Login Example',
+      // Decide the initial route based on login status
+      home: _isLoggedIn ? const MainWrapper() : const Login(),
     );
   }
 }
