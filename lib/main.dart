@@ -1,7 +1,10 @@
 import 'package:alumni_app_2/wrapper/main_wrapper.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:alumni_app_2/ login_page/login_screen.dart';
+import 'package:alumni_app_2/screen1_login/ login_page/login_screen.dart';
+import 'package:alumni_app_2/screen1_login/signup_page/signup_screen.dart';
+import 'package:alumni_app_2/screen1_login/forget_password/forget_password_screen.dart';
+import 'package:alumni_app_2/screen1_login/reset_password/reset_password_screen.dart';
 
 void main() {
   runApp(_MyApp());
