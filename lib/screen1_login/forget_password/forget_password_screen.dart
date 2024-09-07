@@ -70,10 +70,10 @@ class _ForgetPasswordState extends State<ForgetPassword> with TickerProviderStat
                           fillColor: Colors.grey[900], // TextField background color
                           border: const OutlineInputBorder(),
                           enabledBorder: const OutlineInputBorder(
-                            borderSide: BorderSide(color: Colors.cyanAccent), // Border color
+                            borderSide: BorderSide(color: Colors.indigo), // Border color
                           ),
                           focusedBorder: const OutlineInputBorder(
-                            borderSide: BorderSide(color: Colors.cyanAccent), // Border color when focused
+                            borderSide: BorderSide(color: Colors.indigo), // Border color when focused
                           ),
                         ),
                         keyboardType: TextInputType.emailAddress,
@@ -108,10 +108,10 @@ class _ForgetPasswordState extends State<ForgetPassword> with TickerProviderStat
                             fillColor: Colors.grey[900], // TextField background color
                             border: const OutlineInputBorder(),
                             enabledBorder: const OutlineInputBorder(
-                              borderSide: BorderSide(color: Colors.cyanAccent), // Border color
+                              borderSide: BorderSide(color: Colors.indigo), // Border color
                             ),
                             focusedBorder: const OutlineInputBorder(
-                              borderSide: BorderSide(color: Colors.cyanAccent), // Border color when focused
+                              borderSide: BorderSide(color: Colors.indigo), // Border color when focused
                             ),
                           ),
                           keyboardType: TextInputType.number,
@@ -158,7 +158,7 @@ class _ForgetPasswordState extends State<ForgetPassword> with TickerProviderStat
                           }
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.cyanAccent, // Set button color
+                          backgroundColor: Colors.indigo, // Set button color
                           padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),

@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->/Users/riya/Documents/RIYA/alumni_app_2/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/riya/Documents/RIYA/alumni_app_2/android/app/src/debug/AndroidManifest.xml:6:22-64
 16    <!--
 17     Required to query activities that can process text, see:
 18         https://developer.android.com/training/package-visibility and
@@ -23,34 +23,34 @@
 21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 22    -->
 23    <queries>
-23-->C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\android\app\src\main\AndroidManifest.xml:43:5-48:15
+23-->/Users/riya/Documents/RIYA/alumni_app_2/android/app/src/main/AndroidManifest.xml:43:5-48:15
 24        <intent>
-24-->C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\android\app\src\main\AndroidManifest.xml:44:9-47:18
+24-->/Users/riya/Documents/RIYA/alumni_app_2/android/app/src/main/AndroidManifest.xml:44:9-47:18
 25            <action android:name="android.intent.action.PROCESS_TEXT" />
-25-->C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\android\app\src\main\AndroidManifest.xml:45:13-72
-25-->C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\android\app\src\main\AndroidManifest.xml:45:21-70
+25-->/Users/riya/Documents/RIYA/alumni_app_2/android/app/src/main/AndroidManifest.xml:45:13-72
+25-->/Users/riya/Documents/RIYA/alumni_app_2/android/app/src/main/AndroidManifest.xml:45:21-70
 26
 27            <data android:mimeType="text/plain" />
-27-->C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\android\app\src\main\AndroidManifest.xml:46:13-50
-27-->C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\android\app\src\main\AndroidManifest.xml:46:19-48
+27-->/Users/riya/Documents/RIYA/alumni_app_2/android/app/src/main/AndroidManifest.xml:46:13-50
+27-->/Users/riya/Documents/RIYA/alumni_app_2/android/app/src/main/AndroidManifest.xml:46:19-48
 28        </intent>
 29    </queries>
 30
 31    <permission
-31-->[androidx.core:core:1.13.1] C:\Users\skhan\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+31-->[androidx.core:core:1.13.1] /Users/riya/.gradle/caches/transforms-3/437b3304a15066df8b56be823a235f67/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 32        android:name="com.example.sihapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-32-->[androidx.core:core:1.13.1] C:\Users\skhan\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+32-->[androidx.core:core:1.13.1] /Users/riya/.gradle/caches/transforms-3/437b3304a15066df8b56be823a235f67/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 33        android:protectionLevel="signature" />
-33-->[androidx.core:core:1.13.1] C:\Users\skhan\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+33-->[androidx.core:core:1.13.1] /Users/riya/.gradle/caches/transforms-3/437b3304a15066df8b56be823a235f67/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 34
 35    <uses-permission android:name="com.example.sihapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-35-->[androidx.core:core:1.13.1] C:\Users\skhan\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-35-->[androidx.core:core:1.13.1] C:\Users\skhan\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+35-->[androidx.core:core:1.13.1] /Users/riya/.gradle/caches/transforms-3/437b3304a15066df8b56be823a235f67/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.13.1] /Users/riya/.gradle/caches/transforms-3/437b3304a15066df8b56be823a235f67/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 36
 37    <application
 38        android:name="android.app.Application"
 39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-39-->[androidx.core:core:1.13.1] C:\Users\skhan\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+39-->[androidx.core:core:1.13.1] /Users/riya/.gradle/caches/transforms-3/437b3304a15066df8b56be823a235f67/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 40        android:debuggable="true"
 41        android:icon="@mipmap/ic_launcher"
 42        android:label="sihapp" >
@@ -93,130 +93,130 @@
 79            android:value="2" />
 80
 81        <provider
-81-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-19:20
+81-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-19:20
 82            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-82-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-82
+82-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-82
 83            android:authorities="com.example.sihapp.flutter.image_provider"
-83-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-74
+83-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-74
 84            android:exported="false"
-84-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+84-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
 85            android:grantUriPermissions="true" >
-85-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-47
+85-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-47
 86            <meta-data
-86-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-18:75
+86-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-18:75
 87                android:name="android.support.FILE_PROVIDER_PATHS"
-87-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+87-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
 88                android:resource="@xml/flutter_image_picker_file_paths" />
-88-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-72
+88-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-72
 89        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
 90        <service
-90-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33:19
+90-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-33:19
 91            android:name="com.google.android.gms.metadata.ModuleDependencies"
-91-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-78
+91-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-78
 92            android:enabled="false"
-92-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+92-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
 93            android:exported="false" >
-93-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+93-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
 94            <intent-filter>
-94-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-28:29
+94-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-28:29
 95                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-95-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-94
-95-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-91
+95-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-94
+95-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-91
 96            </intent-filter>
 97
 98            <meta-data
-98-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:36
+98-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:36
 99                android:name="photopicker_activity:0:required"
-99-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-63
+99-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-63
 100                android:value="" />
-100-->[:image_picker_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-33
+100-->[:image_picker_android] /Users/riya/Documents/RIYA/alumni_app_2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-33
 101        </service>
 102
 103        <activity
-103-->[:url_launcher_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+103-->[:url_launcher_android] /Users/riya/Documents/RIYA/alumni_app_2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
 104            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-104-->[:url_launcher_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+104-->[:url_launcher_android] /Users/riya/Documents/RIYA/alumni_app_2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
 105            android:exported="false"
-105-->[:url_launcher_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+105-->[:url_launcher_android] /Users/riya/Documents/RIYA/alumni_app_2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 106            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-106-->[:url_launcher_android] C:\Users\skhan\Desktop\college\alumni final\sih app\alumni_app_2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+106-->[:url_launcher_android] /Users/riya/Documents/RIYA/alumni_app_2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
 107
 108        <uses-library
-108-->[androidx.window:window:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+108-->[androidx.window:window:1.2.0] /Users/riya/.gradle/caches/transforms-3/9900132c67d02de6dd3d3454938ebd57/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
 109            android:name="androidx.window.extensions"
-109-->[androidx.window:window:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+109-->[androidx.window:window:1.2.0] /Users/riya/.gradle/caches/transforms-3/9900132c67d02de6dd3d3454938ebd57/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
 110            android:required="false" />
-110-->[androidx.window:window:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+110-->[androidx.window:window:1.2.0] /Users/riya/.gradle/caches/transforms-3/9900132c67d02de6dd3d3454938ebd57/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
 111        <uses-library
-111-->[androidx.window:window:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+111-->[androidx.window:window:1.2.0] /Users/riya/.gradle/caches/transforms-3/9900132c67d02de6dd3d3454938ebd57/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
 112            android:name="androidx.window.sidecar"
-112-->[androidx.window:window:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+112-->[androidx.window:window:1.2.0] /Users/riya/.gradle/caches/transforms-3/9900132c67d02de6dd3d3454938ebd57/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
 113            android:required="false" />
-113-->[androidx.window:window:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+113-->[androidx.window:window:1.2.0] /Users/riya/.gradle/caches/transforms-3/9900132c67d02de6dd3d3454938ebd57/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
 114
 115        <provider
-115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\18d2b5857630d4463c5d1b6fc4508f66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/riya/.gradle/caches/transforms-3/18d2b5857630d4463c5d1b6fc4508f66/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 116            android:name="androidx.startup.InitializationProvider"
-116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\18d2b5857630d4463c5d1b6fc4508f66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/riya/.gradle/caches/transforms-3/18d2b5857630d4463c5d1b6fc4508f66/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 117            android:authorities="com.example.sihapp.androidx-startup"
-117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\18d2b5857630d4463c5d1b6fc4508f66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+117-->[androidx.emoji2:emoji2:1.2.0] /Users/riya/.gradle/caches/transforms-3/18d2b5857630d4463c5d1b6fc4508f66/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 118            android:exported="false" >
-118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\18d2b5857630d4463c5d1b6fc4508f66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/riya/.gradle/caches/transforms-3/18d2b5857630d4463c5d1b6fc4508f66/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 119            <meta-data
-119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\18d2b5857630d4463c5d1b6fc4508f66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+119-->[androidx.emoji2:emoji2:1.2.0] /Users/riya/.gradle/caches/transforms-3/18d2b5857630d4463c5d1b6fc4508f66/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\18d2b5857630d4463c5d1b6fc4508f66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+120-->[androidx.emoji2:emoji2:1.2.0] /Users/riya/.gradle/caches/transforms-3/18d2b5857630d4463c5d1b6fc4508f66/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 121                android:value="androidx.startup" />
-121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\skhan\.gradle\caches\transforms-3\18d2b5857630d4463c5d1b6fc4508f66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+121-->[androidx.emoji2:emoji2:1.2.0] /Users/riya/.gradle/caches/transforms-3/18d2b5857630d4463c5d1b6fc4508f66/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 122            <meta-data
-122-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\skhan\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+122-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riya/.gradle/caches/transforms-3/2bcbc3e90ba55dfc2b3327db5348cb78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
 123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-123-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\skhan\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+123-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riya/.gradle/caches/transforms-3/2bcbc3e90ba55dfc2b3327db5348cb78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
 124                android:value="androidx.startup" />
-124-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\skhan\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+124-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riya/.gradle/caches/transforms-3/2bcbc3e90ba55dfc2b3327db5348cb78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
 125            <meta-data
-125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 126                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
 127                android:value="androidx.startup" />
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
 128        </provider>
 129
 130        <receiver
-130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
 131            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 132            android:directBootAware="false"
-132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
 133            android:enabled="true"
-133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
 134            android:exported="true"
-134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
 135            android:permission="android.permission.DUMP" >
-135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
 136            <intent-filter>
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 137                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 138            </intent-filter>
 139            <intent-filter>
-139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 140                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 141            </intent-filter>
 142            <intent-filter>
-142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 143                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 144            </intent-filter>
 145            <intent-filter>
-145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 146                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\skhan\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riya/.gradle/caches/transforms-3/a8c6dba4a59166e43fa5bb1269a928f6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
 147            </intent-filter>
 148        </receiver>
 149    </application>

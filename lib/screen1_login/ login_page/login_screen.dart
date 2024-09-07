@@ -200,7 +200,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                         const SizedBox(height: 10),
                         MaterialButton(
                           onPressed: _submitFormOnLogin,
-                          color: Colors.cyan,
+                          color: Colors.indigo,
                           elevation: 8,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(13),
@@ -241,7 +241,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                               },
                               child: const Text(
                                 'Signup',
-                                style: TextStyle(color: Colors.cyan),
+                                style: TextStyle(color: Colors.white),
                               ),
                             ),
                           ],

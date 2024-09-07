@@ -52,10 +52,10 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                   fillColor: Colors.grey[900],
                   border: const OutlineInputBorder(),
                   enabledBorder: const OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.cyanAccent),
+                    borderSide: BorderSide(color: Colors.indigo),
                   ),
                   focusedBorder: const OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.cyanAccent),
+                    borderSide: BorderSide(color: Colors.indigo),
                   ),
                   labelText: 'New Password',
                   labelStyle: const TextStyle(color: Colors.white),  // Change label text color to white
@@ -79,10 +79,10 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                   fillColor: Colors.grey[900],
                   border: const OutlineInputBorder(),
                   enabledBorder: const OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.cyanAccent),
+                    borderSide: BorderSide(color: Colors.indigo),
                   ),
                   focusedBorder: const OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.cyanAccent),
+                    borderSide: BorderSide(color: Colors.indigo),
                   ),
                   labelText: 'Confirm New Password',
                   labelStyle: const TextStyle(color: Colors.white),  // Change label text color to white
@@ -114,7 +114,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                     }
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.cyanAccent,
+                    backgroundColor: Colors.indigo,
                     padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30),

@@ -1,17 +1,17 @@
-import 'package:alumni_app_2/screen2_jobPortal/job_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:alumni_app_2/theme/images.dart';
 import 'package:alumni_app_2/theme/colors.dart';
+import 'package:alumni_app_2/screen2_jobPortal/job_detail_screen.dart';
+import 'package:alumni_app_2/screen2_jobPortal/job_create_screen.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class JobHomeScreen extends StatefulWidget {
+  const JobHomeScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<JobHomeScreen> createState() => _JobHomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
-
+class _JobHomeScreenState extends State<JobHomeScreen> {
   // Recommended Job Card Widget
   Widget _recommendedJobs(
       BuildContext context, {
@@ -176,8 +176,16 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const Spacer(),
                     IconButton(
-                      onPressed: () {},
-                      icon: const Icon(Icons.notifications),
+                      onPressed: () {
+                        // Navigate to the CreateJob screen when the button is pressed
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const CreateJob(),
+                          ),
+                        );
+                      },
+                      icon: const Icon(Icons.create), // Changed the icon to 'create'
                       color: ColorsApp.icon,
                       iconSize: 30,
                     ),

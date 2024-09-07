@@ -182,7 +182,7 @@ class _JobDetailScreenState extends State<JobDetailScreen> {
                       // Implement Apply Now functionality
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: ColorsApp.primary,
+                      backgroundColor: ColorsApp.icon,
                       padding: const EdgeInsets.symmetric(vertical: 16),
                     ),
                     child: const Text('Apply Now'),

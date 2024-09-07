@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:alumni_app_2/screens/HomeScreen/home_screen.dart';  // Import HomeScreen
+import 'package:alumni_app_2/screens/HomeScreen/home_screen.dart';
+import 'package:alumni_app_2/screen2_jobPortal/job_home_screen.dart';
 
 class MainWrapper extends StatefulWidget {
-  const MainWrapper({Key? key}) : super(key: key);  // Added Key to the constructor
-  
+  const MainWrapper({super.key});
+
   @override
   State<MainWrapper> createState() => _MainWrapperState();
 }
@@ -14,9 +15,9 @@ class _MainWrapperState extends State<MainWrapper> {
 
   // Pages for navigation (you can add more pages as needed)
   final List<Widget> pages = [
-    HomeScreen(), // Home Screen
+    const HomeScreen(), // Home Screen
     const Center(child: Text("Directory Screen")), // Dummy Directory Screen
-    const Center(child: Text("Job Portal Screen")), // Dummy Job Portal Screen
+    const JobHomeScreen(),
     const Center(child: Text("Donation Screen")), // Dummy Donation Screen
     const Center(child: Text("Events Screen")), // Dummy Events Screen
   ];

@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:alumni_app_2/screen1_login/ login_page/login_screen.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
@@ -160,7 +161,7 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                             decoration: BoxDecoration(
                               border: Border.all(
                                 width: 1,
-                                color: Colors.cyanAccent,
+                                color: Colors.indigo,
                               ),
                               borderRadius: BorderRadius.circular(20),
                             ),
@@ -169,7 +170,7 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                               child: imageFile == null
                                   ? const Icon(
                                 Icons.camera_enhance_sharp,
-                                color: Colors.cyanAccent,
+                                color: Colors.indigo,
                                 size: 40,
                               )
                                   : Image.file(
@@ -201,10 +202,10 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                           labelStyle: TextStyle(color: Colors.white),
                           border: OutlineInputBorder(),
                           enabledBorder: OutlineInputBorder(
-                            borderSide: BorderSide(color: Colors.cyanAccent),
+                            borderSide: BorderSide(color: Colors.indigo),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(color: Colors.cyanAccent),
+                            borderSide: BorderSide(color: Colors.indigo),
                           ),
                         ),
                         validator: (value) {
@@ -260,10 +261,10 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                           labelStyle: TextStyle(color: Colors.white),
                           border: OutlineInputBorder(),
                           enabledBorder: OutlineInputBorder(
-                            borderSide: BorderSide(color: Colors.cyanAccent),
+                            borderSide: BorderSide(color: Colors.indigo),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(color: Colors.cyanAccent),
+                            borderSide: BorderSide(color: Colors.indigo),
                           ),
                         ),
                         validator: (value) {
@@ -306,10 +307,10 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                           labelStyle: TextStyle(color: Colors.white),
                           border: OutlineInputBorder(),
                           enabledBorder: OutlineInputBorder(
-                            borderSide: BorderSide(color: Colors.cyanAccent),
+                            borderSide: BorderSide(color: Colors.indigo),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(color: Colors.cyanAccent),
+                            borderSide: BorderSide(color: Colors.indigo),
                           ),
                         ),
                         validator: (value) {
@@ -351,7 +352,7 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                               });
                             },
                             checkColor: Colors.black,
-                            activeColor: Colors.cyanAccent,
+                            activeColor: Colors.indigo,
                           ),
                           const Expanded(
                             child: Text(
@@ -385,7 +386,7 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                           }
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.cyanAccent,
+                          backgroundColor: Colors.indigo,
                           padding: const EdgeInsets.symmetric(
                               horizontal: 50, vertical: 15),
                           shape: RoundedRectangleBorder(
@@ -406,12 +407,17 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                       const SizedBox(height: 10),
                       GestureDetector(
                         onTap: () {
-                          Navigator.pushNamed(context, '/login');
+                          Navigator.push(
+                              context,
+                            MaterialPageRoute(
+                              builder: (context) => const Login(),
+                            ),
+                          );
                         },
                         child: const Text(
                           'Already have an account? Login',
                           style: TextStyle(
-                            color: Colors.cyanAccent,
+                            color: Colors.indigo,
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),
@@ -442,10 +448,10 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
         labelStyle: const TextStyle(color: Colors.white),
         border: const OutlineInputBorder(),
         enabledBorder: const OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.cyanAccent),
+          borderSide: BorderSide(color: Colors.indigo),
         ),
         focusedBorder: const OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.cyanAccent),
+          borderSide: BorderSide(color: Colors.indigo),
         ),
       ),
       validator: (value) {
@@ -472,15 +478,15 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
         labelStyle: const TextStyle(color: Colors.white),
         border: const OutlineInputBorder(),
         enabledBorder: const OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.cyanAccent),
+          borderSide: BorderSide(color: Colors.indigo),
         ),
         focusedBorder: const OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.cyanAccent),
+          borderSide: BorderSide(color: Colors.indigo),
         ),
         suffixIcon: IconButton(
           icon: Icon(
             _isPasswordVisible ? Icons.visibility : Icons.visibility_off,
-            color: Colors.cyanAccent,
+            color: Colors.indigo,
           ),
           onPressed: () {
             setState(() {
