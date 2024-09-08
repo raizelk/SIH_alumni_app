@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69d912b2-7d94-4f53-998a-3f471ede7b89" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/lib/ login_page/login_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/extension_discovery/vs_code.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
@@ -54,6 +55,10 @@
       <change beforePath="$PROJECT_DIR$/lib/screens/wrapper/main_wrapper.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni_app_2_clean/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/alumni_app_2_clean/.gitignore" afterDir="false" />
+>>>>>>> 9338c2836da8b525af930bc996d6ed7a408e4709
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +108,12 @@
     &quot;accountId&quot;: &quot;dc589c2b-ba1f-418f-99cb-5f8f29eb9d95&quot;
   }
 }</component>
+<<<<<<< HEAD
+=======
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
+>>>>>>> 9338c2836da8b525af930bc996d6ed7a408e4709
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -131,7 +142,11 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
+<<<<<<< HEAD
     "git-widget-placeholder": "master",
+=======
+    "git-widget-placeholder": "Rebasing master",
+>>>>>>> 9338c2836da8b525af930bc996d6ed7a408e4709
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "dart.settings",
@@ -140,6 +155,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
+=======
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/lib/screen1_login" />
+>>>>>>> 9338c2836da8b525af930bc996d6ed7a408e4709
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$" />
     </key>

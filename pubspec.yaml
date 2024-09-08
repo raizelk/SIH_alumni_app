@@ -56,6 +56,10 @@ flutter:
 
   assets:
     - assets/images/login.png
+    - assets/user/
+    - assets/logo/
+    - assets/icon/
+    - assets/images/
 
   fonts:
     - family: ProximaNova
