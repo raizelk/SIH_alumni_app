@@ -101,7 +101,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                   const SizedBox(height: 15),
                   const Center(
                     child: Text(
-                      'Alumni Connect',
+                      'ALMA LINK ',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 24,

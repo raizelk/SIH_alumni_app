@@ -1,8 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:alumni_app_2/screen3_events/des.dart';
 import 'package:alumni_app_2/screen3_events/data_model.dart';
+import 'package:alumni_app_2/theme/images.dart';
+
+void main() {
+  runApp(UventoApp());
+}
+
+class UventoApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: EventScreen(),
+    );
+  }
+}
 
 class EventScreen extends StatelessWidget {
-  
   final List<Map<String, String>> events = [
     {
       'title': 'Alumni Sports Meet in College Stadium',
@@ -40,9 +55,6 @@ class EventScreen extends StatelessWidget {
       'location': 'Grand Ballroom, Sector 8, City Name',
       'image': 'assets2/IMG_2663.JPG',
     }
-
-
-
   ];
 
   @override
@@ -53,13 +65,13 @@ class EventScreen extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0,
         title: Row(
-          children:[
+          children: [
             Text("EVENTS", style: TextStyle(color: Colors.black, fontSize: 24)),
             Spacer(),
             Icon(Icons.notifications, color: Colors.black),
             SizedBox(width: 10),
             CircleAvatar(
-              backgroundImage: AssetImage('assets2/profile.png'),
+              backgroundImage: AssetImage(Images.user),
             ),
           ],
         ),
@@ -69,14 +81,14 @@ class EventScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Hello, Geralt!", style: TextStyle(color: Colors.black, fontSize: 22)),
+            Text("Hello, Raizel!!", style: TextStyle(color: Colors.black, fontSize: 22)),
             SizedBox(height: 4),
             Text("Let's explore what's happening nearby",
                 style: TextStyle(color: Colors.black.withOpacity(0.7), fontSize: 16)),
             SizedBox(height: 20),
             _buildDateSelector(),
             SizedBox(height: 20),
-            Expanded(child: _buildEventList()),
+            Expanded(child: _buildEventList(context)),
           ],
         ),
       ),
@@ -88,7 +100,7 @@ class EventScreen extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: [
-          for (var i = 0; i < 30; i++)  // Example of showing 30 days in a month
+          for (var i = 0; i < 30; i++)
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Column(
@@ -101,12 +113,12 @@ class EventScreen extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: i == 2 ? Colors.indigo[300]: Colors.transparent, // Highlight a specific day if needed
+                      color: i == 2 ? Colors.indigo[300] : Colors.transparent,
                       shape: BoxShape.circle,
                     ),
                     child: Text(
-                      (i + 1).toString(), // Display the date
-                      style: TextStyle(color: i == 2 ? Colors.black : Colors.black          ),
+                      (i + 1).toString(),
+                      style: TextStyle(color: i == 2 ? Colors.black : Colors.black),
                     ),
                   ),
                 ],
@@ -117,8 +129,7 @@ class EventScreen extends StatelessWidget {
     );
   }
 
-
-  Widget _buildEventList() {
+  Widget _buildEventList(BuildContext context) {
     return ListView.builder(
       itemCount: events.length,
       itemBuilder: (context, index) {
@@ -140,6 +151,15 @@ class EventScreen extends StatelessWidget {
                     style: TextStyle(color: Colors.black.withOpacity(0.7))),
               ],
             ),
+            onTap: () {
+              if (events[index]['title'] == 'Alumni Career Fair') {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => EventDescriptionScreen()),
+                );
+              }
+            },
           ),
         );
       },

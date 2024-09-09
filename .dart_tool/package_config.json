@@ -152,6 +152,12 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "flutter_social_button",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/flutter_social_button-1.1.4+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/riya/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -168,6 +174,12 @@
       "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/fluttertoast-8.2.8",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///Users/riya/.pub-cache/hosted/pub.dev/font_awesome_flutter-10.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "google_nav_bar",
@@ -572,7 +584,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-09-09T06:40:34.177303Z",
+  "generated": "2024-09-09T10:16:17.133927Z",
   "generator": "pub",
   "generatorVersion": "3.5.1",
   "flutterRoot": "file:///Users/riya/development/flutter",

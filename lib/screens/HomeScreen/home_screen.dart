@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:alumni_app_2/theme/images.dart';
+<<<<<<< HEAD
+=======
+import 'package:alumni_app_2/screen3_events/event_description.dart';
+import 'package:alumni_app_2/screen2_jobPortal/job_home_screen.dart';
+>>>>>>> 751dbcf (frontend is completed)
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);  // Added Key to the constructor
@@ -10,7 +15,11 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.indigo,
         elevation: 1,
+<<<<<<< HEAD
         title: const Text('Alumni App', style: TextStyle(color: Colors.white)),
+=======
+        title: const Text('ALMA LINK ', style: TextStyle(color: Colors.white)),
+>>>>>>> 751dbcf (frontend is completed)
         leading: IconButton(
           onPressed: () {
             //open menu
@@ -53,7 +62,14 @@ class HomeScreen extends StatelessWidget {
 
               // Upcoming Events Section
               SectionTitle(title: 'Upcoming events', onSeeMore: () {
+<<<<<<< HEAD
                 // Navigate to events page
+=======
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) =>  EventScreen()),
+                );
+>>>>>>> 751dbcf (frontend is completed)
               }),
               EventCard(
                 imagePath: Images.sport, // Add event images here
@@ -77,7 +93,14 @@ class HomeScreen extends StatelessWidget {
 
               // Jobs Section
               SectionTitle(title: 'Jobs', onSeeMore: () {
+<<<<<<< HEAD
                 // Navigate to jobs page
+=======
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const JobHomeScreen()),
+                );
+>>>>>>> 751dbcf (frontend is completed)
               }),
               JobCard(
                 imagePath: Images.microsoft, // Add company logo here
@@ -100,6 +123,126 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
+<<<<<<< HEAD
+      ),
+    );
+  }
+}
+// Custom Widgets
+class SuccessStoryCard extends StatelessWidget {
+  final String imagePath;
+
+  SuccessStoryCard({required this.imagePath});
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Image.asset(imagePath, fit: BoxFit.cover),
+    );
+  }
+}
+
+class SectionTitle extends StatelessWidget {
+  final String title;
+  final VoidCallback onSeeMore;
+
+  SectionTitle({required this.title, required this.onSeeMore});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text(
+          title,
+          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+        ),
+        TextButton(
+          onPressed: onSeeMore,
+          child: const Text('see more'),
+        ),
+      ],
+    );
+  }
+}
+
+class EventCard extends StatelessWidget {
+  final String imagePath;
+  final String eventTitle;
+  final String eventDate;
+  final String eventLocation;
+
+  EventCard({required this.imagePath, required this.eventTitle, required this.eventDate, required this.eventLocation});
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Row(
+        children: [
+          Image.asset(
+            imagePath,
+            width: 100,
+            height: 100,
+            fit: BoxFit.cover,
+          ),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  eventTitle,
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                ),
+                const SizedBox(height: 4),
+                Text(eventDate),
+                const SizedBox(height: 4),
+                Text(eventLocation),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class JobCard extends StatelessWidget {
+  final String imagePath;
+  final String companyName;
+  final String jobTitle;
+  final String applications;
+
+  JobCard({required this.imagePath, required this.companyName, required this.jobTitle, required this.applications});
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Row(
+        children: [
+          Image.asset(
+            imagePath,
+            width: 100,
+            height: 100,
+            fit: BoxFit.cover,
+          ),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '$companyName hiring $jobTitle',
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                ),
+                const SizedBox(height: 4),
+                Text(applications),
+              ],
+            ),
+          ),
+        ],
+=======
+>>>>>>> 751dbcf (frontend is completed)
       ),
     );
   }

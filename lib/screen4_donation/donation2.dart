@@ -12,10 +12,7 @@ class Donation2 extends StatelessWidget {
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => DonationPage()),
-            );
+            Navigator.pop(context);  // Corrected back navigation
           },
         ),
         actions: [
@@ -34,7 +31,7 @@ class Donation2 extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: Image.asset(
-                'assets2/ek.jpg', // Ensure this path exists in pubspec.yaml
+                'assets2/ek.jpg',
                 height: 180,
                 width: double.infinity,
                 fit: BoxFit.cover,
@@ -82,21 +79,20 @@ class Donation2 extends StatelessWidget {
               style: TextStyle(fontSize: 16),
             ),
             Spacer(),
-            // Get Started Button (GestureDetector with Navigation)
-
+            // Donate Now Button
             Center(
               child: GestureDetector(
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => Donation3(), // Replace with your destination page
+                      builder: (context) => Donation3(), // Navigation to Donation3
                     ),
                   );
                 },
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.indigo[50], // Button background color
+                    color: Colors.indigo[50],
                     borderRadius: BorderRadius.circular(30),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
@@ -104,7 +100,7 @@ class Donation2 extends StatelessWidget {
                     'Donate Now',
                     style: TextStyle(
                       fontSize: 18,
-                      color: Colors.black, // Text color
+                      color: Colors.black,
                     ),
                   ),
                 ),

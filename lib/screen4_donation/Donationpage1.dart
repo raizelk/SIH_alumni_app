@@ -15,7 +15,7 @@ class DonationPage extends StatelessWidget {
             children: [
 
               Text(
-                'Hello, Mario!',
+                'Hello, Raizel!',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold,color: Colors.white)
                 ,
               ),

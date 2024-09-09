@@ -1,17 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(EventApp());
-
-class EventApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: EventDescriptionScreen(),
-    );
-  }
-}
-
 class EventDescriptionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -22,7 +10,7 @@ class EventDescriptionScreen extends StatelessWidget {
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () {
-            // Action for back button
+            Navigator.pop(context); // Go back to the previous screen
           },
         ),
       ),
@@ -35,7 +23,7 @@ class EventDescriptionScreen extends StatelessWidget {
                 height: 250,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('assets2/IMG_2665.JPG'), /// Replace with your image
+                    image: AssetImage('assets2/IMG_2664.JPG'), // Replace with your image
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -56,7 +44,7 @@ class EventDescriptionScreen extends StatelessWidget {
                             ),
                             SizedBox(width: 10),
                             Text(
-                              'First International Conference',
+                              'Alumni Career Fair',
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                               overflow: TextOverflow.ellipsis,
@@ -68,7 +56,7 @@ class EventDescriptionScreen extends StatelessWidget {
                           children: [
                             Icon(Icons.calendar_today, size: 16),
                             SizedBox(width: 5),
-                            Text('11, Dec-2019 02:30 AM'),
+                            Text('Oct 20, 2024, 10:00 AM'),
                           ],
                         ),
                         SizedBox(height: 10),
@@ -77,7 +65,7 @@ class EventDescriptionScreen extends StatelessWidget {
                             Icon(Icons.location_on, size: 16),
                             SizedBox(width: 5),
                             Expanded(
-                              child: Text('200, Columbus, OH, United States'),
+                              child: Text('Auditorium Hall, Sector 12, City Name'),
                             ),
                           ],
                         ),
@@ -97,7 +85,7 @@ class EventDescriptionScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 10),
                         Text(
-                          'First International Conference on 5G Mobile Communication Technologies, Date of Conference: 27-29 March 2019 and Date Added to IEEE Xplore: 06 August 2019. Print ISBN: 0-85296-726-8, INSPEC Accession Number...',
+                          'The Alumni Career Fair is a great opportunity for alumni to connect with industry professionals and explore job opportunities. Join us at the Auditorium Hall on Oct 20, 2024...',
                           style: TextStyle(fontSize: 14),
                         ),
                       ],
@@ -117,11 +105,15 @@ class EventDescriptionScreen extends StatelessWidget {
                 onPressed: () {
                   // Action for Join Event button
                 },
-                child: Text('JOIN EVENT', style: TextStyle(color: Colors.white)),
+                child: Text(
+                  'JOIN EVENT',
+                  style: TextStyle(color: Colors.indigo),
+                ),
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(vertical: 16.0),
                   backgroundColor: Colors.indigo[50],
-                  textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  textStyle:
+                  TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
               ),
             ),

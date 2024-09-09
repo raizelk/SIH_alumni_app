@@ -3,10 +3,7 @@ import 'package:flutter/material.dart';
 class Donation3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: DonationScreen(),
-    );
+    return DonationScreen();  // Directly returning DonationScreen instead of wrapping it in MaterialApp
   }
 }
 
@@ -24,8 +21,13 @@ class _DonationScreenState extends State<DonationScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Donate Now'),
-        backgroundColor: Color(0xFF297768), // Green color from the image
-        leading: Icon(Icons.arrow_back),
+        backgroundColor: Colors.indigo,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context);  // Corrected back navigation
+          },
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -87,7 +89,7 @@ class _DonationScreenState extends State<DonationScreen> {
                 },
                 child: Text('Continue'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFF297768), // Green button color
+                  backgroundColor: Colors.indigo[50],
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20.0),
                   ),
@@ -115,17 +117,17 @@ class _DonationScreenState extends State<DonationScreen> {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20.0),
             border: Border.all(
-              color: _selectedAmount == amount ? Colors.teal : Colors.grey,
+              color: _selectedAmount == amount ? Colors.indigo : Colors.grey,
               width: 2,
             ),
-            color: _selectedAmount == amount ? Color(0xFFDBF3F0) : null,
+            color: _selectedAmount == amount ? Colors.indigo : null,
           ),
           child: Center(
             child: Text(
               '\$$amount',
               style: TextStyle(
                 fontSize: 18,
-                color: _selectedAmount == amount ? Colors.teal : Colors.black,
+                color: _selectedAmount == amount ? Colors.indigo[50] : Colors.black,
               ),
             ),
           ),

@@ -21,7 +21,7 @@ class WelcomeScreen extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
-                                Image.asset("assets2/Wallpaper.jpeg", height: 50),
+                                //Image.asset("assets2/Wallpaper.jpeg", height: 50),
                                 Row(
                                     children: <Widget>[
                                         const Text(

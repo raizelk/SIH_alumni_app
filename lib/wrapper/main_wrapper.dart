@@ -1,9 +1,11 @@
-import 'package:alumni_app_2/screen3_events/event_home.dart';
+import 'package:alumni_app_2/screen3_events/event_description.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:alumni_app_2/screens/HomeScreen/home_screen.dart';
 import 'package:alumni_app_2/screen2_jobPortal/job_home_screen.dart';
 import 'package:alumni_app_2/screen4_donation/Donationpage1.dart';
+import 'package:alumni_app_2/screen5_directory /directory_home.dart';
+
 
 class MainWrapper extends StatefulWidget {
   const MainWrapper({super.key});
@@ -18,10 +20,10 @@ class _MainWrapperState extends State<MainWrapper> {
   // Pages for navigation (you can add more pages as needed)
   final List<Widget> pages = [
     const HomeScreen(), // Home Screen
-    const Center(child: Text("Directory Screen")), // Dummy Directory Screen
+    const DirectoryHome(),
     const JobHomeScreen(),
-    EventPage(),
-    DonationPage()
+    DonationPage(),
+    EventScreen(),
   ];
 
   @override
