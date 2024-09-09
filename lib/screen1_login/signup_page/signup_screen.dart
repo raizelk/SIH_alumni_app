@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:alumni_app_2/screen1_login/ login_page/login_screen.dart';
+import 'package:alumni_app_2/screens/welcome_screen.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
@@ -375,6 +376,10 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                               const SnackBar(
                                   content: Text('Registered Successfully')),
                             );
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => WelcomeScreen()),
+                              );
                           } else {
                             ScaffoldMessenger.of(context).showSnackBar(
                               const SnackBar(

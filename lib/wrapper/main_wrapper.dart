@@ -1,7 +1,9 @@
+import 'package:alumni_app_2/screen3_events/event_home.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:alumni_app_2/screens/HomeScreen/home_screen.dart';
 import 'package:alumni_app_2/screen2_jobPortal/job_home_screen.dart';
+import 'package:alumni_app_2/screen4_donation/Donationpage1.dart';
 
 class MainWrapper extends StatefulWidget {
   const MainWrapper({super.key});
@@ -18,8 +20,8 @@ class _MainWrapperState extends State<MainWrapper> {
     const HomeScreen(), // Home Screen
     const Center(child: Text("Directory Screen")), // Dummy Directory Screen
     const JobHomeScreen(),
-    const Center(child: Text("Donation Screen")), // Dummy Donation Screen
-    const Center(child: Text("Events Screen")), // Dummy Events Screen
+    EventPage(),
+    DonationPage()
   ];
 
   @override
